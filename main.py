@@ -59,12 +59,7 @@ ax.text(0.55, 1.11, "Quantum", size=30,
 ax.text(0.55, 1.11 - 0.0025, " Creature", size=30,
         name="Source Sans Pro", weight=100,
         ha="left", va="top", transform=ax.transAxes, color='white')
-ax.text(0.5, -0.05, "by Google Research Cirq: Quantum Random Number Generator", size=16,
-        name="Source Sans Pro", weight=100,
-        ha="center", va="bottom", transform=ax.transAxes, color='white')
-ax.text(0.5, -0.10, "Uniform distributed Random Numbers Algorithm", size=12,
-        name="Source Sans Pro", weight=100,
-        ha="center", va="bottom", transform=ax.transAxes, color='white')
+
 
 
 anim = animation.FuncAnimation(fig, update, frames=frames, interval=60)
