@@ -3,7 +3,8 @@ Exploring quantum randomness with this project using Cirq. Generate unique rando
 
 Building an algorithm to simulate the `numpy.random.uniform` function to produce specified number of uniform distributed quantum pure generated random numbers using `Google Research Cirq Package`.
 
-<img src="https://github.com/MateBerg/quantum_creature/assets/69548206/597bb7d5-af54-4151-8092-55e563a7ff77" alt="qn_creature" width="500"/>
+<img src="https://github.com/MateBerg/quantum_creature/assets/69548206/c4abd711-4846-492f-b993-e6d91ed5712f" alt="qn_creature" width="500"/>
+
 
 ## Requirements
 
