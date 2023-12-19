@@ -5,6 +5,7 @@ Building an algorithm to simulate the `numpy.random.uniform` function to produce
 
 <img src="https://github.com/MateBerg/quantum_creature/assets/69548206/c4abd711-4846-492f-b993-e6d91ed5712f" alt="qn_creature" width="500"/>
 
+![qn_creature__2](https://github.com/MateBerg/quantum_creature/assets/69548206/67343b86-3a0c-4adb-bf27-8c0400820523)
 
 ## Requirements
 
