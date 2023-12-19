@@ -15,12 +15,12 @@ R = np.array(qn_random_float_generator_128(0, 1))
 P = np.zeros((points_num,2))
 
 X,Y = P[:,0], P[:,1]
-X[...] = R*np.cos(T)
-Y[...] = R*np.sin(T)
+X[:] = R*np.cos(T)
+Y[:] = R*np.sin(T)
 intensity_inner = 1.001 - np.power(np.sqrt(X**2 + Y**2), 0.75)
 intensity_outer = np.power(np.sqrt(X**2 + Y**2), 0.15)
-X[...] = X*radius +  width//2
-Y[...] = Y*radius + height//2
+X[:] = X*radius +  width//2
+Y[:] = Y*radius + height//2
 
 def update(*args):
     global P, time, pbar
@@ -39,7 +39,7 @@ def update(*args):
     pbar.update(1)
     scatter.set_offsets(P_)
 
-# Set background color to black
+# set background color
 def set_background(color=''): # """#303030"""
     ax.set_facecolor(color)
     fig.set_facecolor(color)
