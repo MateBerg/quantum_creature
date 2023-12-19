@@ -5,8 +5,6 @@ Building an algorithm to simulate the `numpy.random.uniform` function to produce
 
 ![qn_creature](https://github.com/MateBerg/quantum_creature/assets/69548206/597bb7d5-af54-4151-8092-55e563a7ff77)
 
-![qn_creature](https://raw.githubusercontent.com/MateBerg/quantum_creature/main/assets/69548206/597bb7d5-af54-4151-8092-55e563a7ff)
-
 ## Requirements
 
 - [Cirq](https://github.com/quantumlib/Cirq)
