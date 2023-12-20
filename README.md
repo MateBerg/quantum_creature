@@ -17,13 +17,14 @@ This animation was inspired by the work of [rougier](https://github.com/rougier)
 
 ## Installation
 1) Clone this repository to your local machine.  
-`git clone https://github.com/MateBerg/quantum_creature
-cd quantum_creature`
+`git clone https://github.com/MateBerg/quantum_creature`
+
+`cd quantum_creature`
  
-2) Install the required Python packages by running the following command in your terminal:   
+3) Install the required Python packages by running the following command in your terminal:   
 `pip install -r requirements.txt`
 
-3) python3 main.py
+4) python3 main.py
 
-4) Wait! as it takes some time depending on memory and cpu.
+5) Wait! as it takes some time depending on memory and cpu.
 
